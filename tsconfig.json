@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+      "ES2016",
+      "DOM"
+    ],
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "./png/*": [
+        "png/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "png/**/*.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "png/**/*.js",
+    "png/**/*.d.ts",
+    "png/**/*.js.map",
+    "png/**/*.d.ts.map"
+  ]
+}
